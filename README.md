@@ -1,39 +1,33 @@
-# SupportLife — Sistema de Estoque
+SupportLife — Sistema de Gerenciamento de Estoque
 
-Sistema web de gerenciamento de estoque desenvolvido em PHP e MySQL. O projeto reúne autenticação, cadastro e edição de itens, movimentações, manutenção, agrupamento de itens em uso e exportação de dados.
+Sistema web desenvolvido para facilitar o controle de materiais, equipamentos e movimentações de estoque em ambiente corporativo.
 
-## Tecnologias
+O que foi desenvolvido
 
-- PHP
-- MySQL / MariaDB
-- HTML5 / CSS3 / JavaScript
-- Bootstrap
-- AdminLTE
-- XlsxWriter (implementação simples incluída no projeto)
+Dashboard administrativo com indicadores de estoque.
 
-## Segurança
+Cadastro e gerenciamento de produtos.
 
-As credenciais reais do ambiente de produção não fazem parte deste repositório. Configure as variáveis de ambiente a partir de `.env.example`.
+Controle de entradas, saídas e histórico de movimentações.
 
-Variáveis necessárias:
+Separação entre itens disponíveis em estoque e itens em uso.
 
-- `DB_HOST`
-- `DB_USER`
-- `DB_PASSWORD`
-- `DB_NAME`
-- `PHARMACY_ACCESS_PASSWORD`
-- `MOVEMENTS_ACCESS_PASSWORD`
+Organização de equipamentos por local.
 
-> Não publique senhas, tokens ou dados reais de usuários no repositório.
+Controle de produtos com baixo estoque.
 
-## Execução
+Monitoramento de produtos próximos do vencimento.
 
-1. Configure um servidor PHP com MySQL/MariaDB.
-2. Crie as variáveis de ambiente indicadas em `.env.example`.
-3. Configure o banco de dados utilizado pela aplicação.
-4. Aponte o servidor web para a raiz do projeto.
-5. Acesse `login.php`.
+Sistema de requisições e reposição de materiais.
 
-## Portfólio
+Filtros por período e consultas de movimentações.
 
-Este repositório foi preparado para apresentar a arquitetura e as funcionalidades do projeto sem expor credenciais do ambiente original.
+Exportação de informações para relatórios.
+
+Problema que busca resolver
+
+Melhorar a organização e o acompanhamento dos materiais da empresa, reduzindo controles manuais, facilitando a identificação de necessidades de reposição e proporcionando maior visibilidade sobre a utilização dos recursos.
+
+Tecnologias utilizadas
+
+PHP • MySQL • Bootstrap 5 • HTML5 • CSS3 • JavaScript • Bootstrap Icons
